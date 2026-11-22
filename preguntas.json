@@ -1,0 +1,52 @@
+[
+    {
+        "pregunta": "¿Cuáles de los siguientes orgánulos tienen membrana doble?",
+        "opciones": [
+            "Mitocondria",
+            "Cloroplasto",
+            "Ribosoma",
+            "Vacuola"
+        ],
+        "correctas": [0, 1]
+    },
+    {
+        "pregunta": "¿Cuáles son funciones del Aparato de Golgi?",
+        "opciones": [
+            "Empaquetar proteínas",
+            "Digestión celular",
+            "Fotosíntesis",
+            "Síntesis de lípidos"
+        ],
+        "correctas": [0, 3]
+    },
+    {
+        "pregunta": "¿Cuál es la unidad básica de la vida?",
+        "opciones": [
+            "Célula",
+            "Tejido",
+            "Órgano",
+            "Sistema"
+        ],
+        "correctas": [0]
+    },
+    {
+        "pregunta": "¿Dónde se encuentra el ADN en la célula eucariota?",
+        "opciones": [
+            "Núcleo",
+            "Mitocondria",
+            "Ribosoma",
+            "Retículo endoplasmático"
+        ],
+        "correctas": [0, 1]
+    },
+    {
+        "pregunta": "¿Aproximadamente cuántas células tiene un humano adulto?",
+        "opciones": [
+            "Un cuerpo humano adulto tiene alrededor de 30 billones de células",
+            "Un cuerpo humano adulto tiene alrededor de 500 mil células",
+            "Un cuerpo humano adulto tiene alrededor de 10 millones de células",
+            "Un cuerpo humano adulto tiene alrededor de 1 millón de células"
+        ],
+        "correctas": [0]
+    }
+]
