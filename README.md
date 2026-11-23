@@ -15,8 +15,12 @@ Aplicación interactiva con interfaz gráfica desarrollada en **Python** y **Tki
   - Lee `preguntas.json` en codificación `UTF-8`.
   - Verifica que el contenido sea una lista con **al menos 5 preguntas**.
   - Muestra alertas gráficas (`messagebox`) si el archivo no existe, tiene errores de formato JSON o no cumple con el mínimo de preguntas.
+  
+### Cómo ejecutar el programa
+1. Asegúrate de tener `quiz_biologia_celular.py` y `preguntas.json` en la misma carpeta[cite: 5, 10, 12].
+2. Abre una terminal dentro de la carpeta del proyecto y ejecuta
 
-## Estructura del proyecto
+#### Estructura del proyecto
 
 ```text
 quiz_biologia_celular/
