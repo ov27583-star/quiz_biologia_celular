@@ -62,7 +62,7 @@ class QuizApp:
         tk.Label(
             self.frame_inicio,
             text="🧬 Quiz de Biología Celular",
-            font=("Arial", 22, "bold"),
+            font=("Times New Roman", 22, "bold"),
             bg="#e8f4f8",
             fg="#2c3e50",
         ).pack(pady=20)
@@ -70,14 +70,14 @@ class QuizApp:
         tk.Label(
             self.frame_inicio,
             text="Ingrese su nombre:",
-            font=("Arial", 14),
+            font=("Times New Roman", 14),
             bg="#e8f4f8",
             fg="#2c3e50",
         ).pack(pady=10)
 
         self.entry_nombre = tk.Entry(
             self.frame_inicio,
-            font=("Arial", 14),
+            font=("Times New Roman", 14),
             width=25,
             justify="center",
         )
@@ -86,7 +86,7 @@ class QuizApp:
         tk.Button(
             self.frame_inicio,
             text="Iniciar Juego",
-            font=("Arial", 14, "bold"),
+            font=("Times New Roman", 14, "bold"),
             command=self.al_pulsar_iniciar,
             bg="#27ae60",
             fg="white",
@@ -101,7 +101,7 @@ class QuizApp:
         self.lbl_numero_pregunta = tk.Label(
             self.frame_juego,
             text="",
-            font=("Arial", 10, "bold"),
+            font=("Times New Roman", 10, "bold"),
             bg="#fef9e7",
             fg="#8d6e00",
         )
@@ -110,7 +110,7 @@ class QuizApp:
         self.lbl_puntaje = tk.Label(
             self.frame_juego,
             text="",
-            font=("Arial", 10),
+            font=("Times New Roman", 10),
             bg="#fef9e7",
             fg="#8d6e00",
         )
@@ -134,7 +134,7 @@ class QuizApp:
             self.frame_juego,
             text="Validar Respuesta",
             command=self.al_pulsar_validar,
-            font=("Arial", 11, "bold"),
+            font=("Times New Roman", 11, "bold"),
             bg="#3498db",
             fg="white",
             padx=30,
@@ -149,7 +149,7 @@ class QuizApp:
         tk.Label(
             self.frame_resultados,
             text="🏆 ¡Fin del Quiz!",
-            font=("Arial", 20, "bold"),
+            font=("Times New Roman", 20, "bold"),
             bg="#eafaf1",
             fg="#1e8449",
         ).pack(pady=10)
@@ -157,7 +157,7 @@ class QuizApp:
         self.lbl_nombre_final = tk.Label(
             self.frame_resultados,
             text="",
-            font=("Arial", 12),
+            font=("Times New Roman", 12),
             bg="#eafaf1",
             fg="#2c3e50",
         )
@@ -166,7 +166,7 @@ class QuizApp:
         self.lbl_puntaje_final = tk.Label(
             self.frame_resultados,
             text="",
-            font=("Arial", 16, "bold"),
+            font=("Times New Roman", 16, "bold"),
             bg="#eafaf1",
             fg="#1e8449",
         )
@@ -175,7 +175,7 @@ class QuizApp:
         self.lbl_estadisticas = tk.Label(
             self.frame_resultados,
             text="",
-            font=("Arial", 12),
+            font=("Times New Roman", 12),
             bg="#eafaf1",
             fg="#2c3e50",
         )
@@ -185,7 +185,7 @@ class QuizApp:
             self.frame_resultados,
             text="Volver al Inicio",
             command=self.volver_al_inicio,
-            font=("Arial", 12, "bold"),
+            font=("Times New Roman", 12, "bold"),
             bg="#f39c12",
             fg="white",
             padx=30,
@@ -234,7 +234,7 @@ class QuizApp:
                 self.frame_opciones,
                 text=texto_opcion,
                 variable=var,
-                font=("Arial", 11),
+                font=("Times New Roman", 11),
                 bg="#fef9e7",
                 fg="#2c3e50",
             )
