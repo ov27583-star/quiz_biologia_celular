@@ -5,12 +5,12 @@ Aplicación interactiva con interfaz gráfica desarrollada en **Python** y **Tki
 ## Características y funcionamiento
 
 - **Interfaz gráfica de tres pantallas (`QuizApp`):**
-  - **Inicio:** Solicita el nombre del jugador antes de comenzar (valida que el campo no esté vacío).
-  - **Juego:** Muestra el número de pregunta actual, el puntaje acumulado, el enunciado y opciones en formato de casillas (`Checkbutton`) distribuidas en dos columnas, permitiendo preguntas de una o varias respuestas correctas[cite: 12].
-  - **Resultados:** Despliega el nombre del jugador, el puntaje final, el conteo de aciertos y fallos, además de una ventana emergente con el resumen y un botón para volver al inicio.
+  - **Inicio:** Solicita el nombre del jugador antes de comenzar (valida que el campo no esté vacío).![alt text](image.png)
+  - **Juego:** Muestra el número de pregunta actual, el puntaje acumulado, el enunciado y opciones en formato de casillas (`Checkbutton`) distribuidas en dos columnas, permitiendo preguntas de una o varias respuestas correctas.![alt text](image-1.png)
+  - **Resultados:** Despliega el nombre del jugador, el puntaje final, el conteo de aciertos y fallos, además de una ventana emergente con el resumen y un botón para volver al inicio.!![alt text](image-2.png)
 - **Sistema de puntuación:**
-  - **Acierto exacto:** `+15` puntos (la selección debe coincidir exactamente con los índices indicados en `"correctas"`).
-  - **Respuesta incorrecta:** `-5` puntos.
+  - **Acierto exacto:** `+15` puntos (la selección debe coincidir exactamente con los índices indicados en `"correctas"`).![alt text](image-4.png)
+  - **Respuesta incorrecta:** `-5` puntos.![alt text](image-3.png)
 - **Validación del banco de preguntas (`cargar_preguntas`):**
   - Lee `preguntas.json` en codificación `UTF-8`.
   - Verifica que el contenido sea una lista con **al menos 5 preguntas**.
