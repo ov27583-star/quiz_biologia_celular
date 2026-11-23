@@ -1,4 +1,5 @@
 import json
+import random
 import tkinter as tk
 from tkinter import messagebox
 
@@ -27,13 +28,14 @@ class QuizApp:
         self.root.title("Quiz de Biología Celular")
         self.root.geometry("580x420")
 
-        # Cargar preguntas
-        self.preguntas = cargar_preguntas()
-        if not self.preguntas:
+        # Cargar preguntas base
+        self.preguntas_base = cargar_preguntas()
+        if not self.preguntas_base:
             self.root.destroy()
             return
 
         # Variables del juego
+        self.preguntas = []
         self.nombre_jugador = ""
         self.indice_actual = 0
         self.puntaje = 0
@@ -197,6 +199,10 @@ class QuizApp:
         if not nombre:
             messagebox.showwarning("Aviso", "Por favor escribe tu nombre")
             return
+
+        # Copiar y mezclar aleatoriamente las preguntas en cada partida
+        self.preguntas = self.preguntas_base.copy()
+        random.shuffle(self.preguntas)
 
         self.nombre_jugador = nombre
         self.indice_actual = 0
